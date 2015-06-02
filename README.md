@@ -1,3 +1,3 @@
 # CppProject
 Folder for C++ projects
-Some codes witten by myself.
+Some codes written by myself.
