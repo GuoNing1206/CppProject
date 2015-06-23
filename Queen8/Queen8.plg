@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Queen8 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Queen8.res" /d "_DEBUG" "F:\Visual C++\Project MFC\Queen8\Queen8.rc"" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5E09.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Queen8.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Visual C++\Project MFC\Queen8\DlgProgress.cpp"
+"F:\Visual C++\Project MFC\Queen8\Queen8.cpp"
+"F:\Visual C++\Project MFC\Queen8\Queen8Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5E09.tmp" 
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5E0A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Queen8.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Visual C++\Project MFC\Queen8\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5E0A.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Queen8.pdb" /debug /machine:I386 /out:"Debug/Queen8.exe" /pdbtype:sept  ".\Debug\DlgProgress.obj" ".\Debug\Queen8.obj" ".\Debug\Queen8Dlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Queen8.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgProgress.cpp
+Queen8.cpp
+Queen8Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Queen8.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
